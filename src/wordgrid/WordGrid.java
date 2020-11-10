@@ -20,6 +20,7 @@ public class WordGrid {
         // TODO code application logic here
         Grid grid = new Grid(15);
         grid.putWordsInGrid(Arrays.asList("ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN"));
+        grid.randomFill();
         grid.displayGrid();
         
     }

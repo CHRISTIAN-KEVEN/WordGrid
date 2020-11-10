@@ -233,6 +233,19 @@ public class Grid {
         }
     }
     
+    public void randomFill() {
+        
+        String letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        for (int i=0; i<this.size; i++) {
+            for (int j=0; j<this.size; j++) {
+                if(this.content[i][j] == '_') {
+                    int rand = (int)(26*Math.random());
+                    this.content[i][j] = letters.charAt(rand);
+                }
+            }
+        }
+    }
+    
 //    public void fillGrid(List<String> words) {
 //        for(String word : words) {
 //            int wordLength = word.length();
