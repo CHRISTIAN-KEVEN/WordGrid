@@ -18,8 +18,8 @@ public class WordGrid {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Grid grid = new Grid(10);
-        grid.putWordsInGrid(Arrays.asList("One", "Two", "Three", "Four", "Five"));
+        Grid grid = new Grid(15);
+        grid.putWordsInGrid(Arrays.asList("ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN"));
         grid.displayGrid();
         
     }
